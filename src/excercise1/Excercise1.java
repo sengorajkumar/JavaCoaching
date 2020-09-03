@@ -42,6 +42,7 @@ class Dog extends Animal{
        System.out.println("Creating dog object, name = " + name);
     }
 
+    // Run and sound methods are defined again in the sub class. This is called overriding. What is it?
     public void run() {
         System.out.println("Dog runs!");
     }
